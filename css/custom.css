@@ -40,9 +40,9 @@ jumbotron.less {
   color: #fff;
   *zoom: 1;
   filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF007DC1', endColorstr='#FF0073B2');
-  background: -o-linear-gradient(top, #007dc1 <span class='hexPreview' style='background-color: #007dc1'>&nbsp;</span> 0%, #1dccc6 <span class='hexPreview' style='background-color: #1dccc6'>&nbsp;</span> 100%);
+  background: -o-linear-gradient(top, #1d666c <span class='hexPreview' style='background-color: #1d666c'>&nbsp;</span> 0%, #1dccc6 <span class='hexPreview' style='background-color: #1dccc6'>&nbsp;</span> 100%);
   /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, #007dc1 <span class='hexPreview' style='background-color: #007dc1'>&nbsp;</span> 0%, #1dccc6 <span class='hexPreview' style='background-color: #1dccc6'>&nbsp;</span> 100%);
+  background: -ms-linear-gradient(top, #1d666c <span class='hexPreview' style='background-color: #1d666c'>&nbsp;</span> 0%, #1dccc6 <span class='hexPreview' style='background-color: #1dccc6'>&nbsp;</span> 100%);
   /* IE10+ */
   background: #1dccc6 <span class='hexPreview' style='background-color: #1dccc6'>&nbsp;</span>;
   background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwN2RjMSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwNzNiMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA=='), #1dccc6 <span class='hexPreview' style='background-color: #1dccc6'>&nbsp;</span>;
@@ -50,8 +50,8 @@ jumbotron.less {
   background: -moz-linear-gradient(#1dccc6, #1dccc6 <span class='hexPreview' style='background-color: #1dccc6'>&nbsp;</span>), #1dccc6 <span class='hexPreview' style='background-color: #1dccc6'>&nbsp;</span>;
   background: -webkit-linear-gradient(#1dccc6, #1dccc6 <span class='hexPreview' style='background-color: #1dccc6'>&nbsp;</span>), #1dccc6 <span class='hexPreview' style='background-color: #1dccc6'>&nbsp;</span>;
   background: linear-gradient(#1dccc6, #1dccc6 <span class='hexPreview' style='background-color: #1dccc6'>&nbsp;</span>), #1dccc6 <span class='hexPreview' style='background-color: #1dccc6'>&nbsp;</span>;
-  border-color: #004b75 <span class='hexPreview' style='background-color: #004b75'>&nbsp;</span>;
-  border-bottom-color: #00456a <span class='hexPreview' style='background-color: #00456a'>&nbsp;</span>;
+  border-color: #1dccc6 <span class='hexPreview' style='background-color: #1dccc6'>&nbsp;</span>;
+  border-bottom-color: #1d666c <span class='hexPreview' style='background-color: #1d666c'>&nbsp;</span>;
   -moz-box-shadow: rgba(0, 0, 0, 0.15) 0 1px 0, rgba(255, 255, 255, 0.1) 0 1px 0 0 inset;
   -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0 1px 0, rgba(255, 255, 255, 0.1) 0 1px 0 0 inset;
   box-shadow: rgba(0, 0, 0, 0.15) 0 1px 0, rgba(255, 255, 255, 0.1) 0 1px 0 0 inset;

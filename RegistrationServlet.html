@@ -8,7 +8,7 @@
 p    {
 	color: black;
     	font-family: courier;
-    	font-size: 160%; 
+    	font-size: 100%; 
 </style>
 
 <script>
@@ -19,13 +19,15 @@ function submitAnswers()
 
    questions = document.getElementById("test");
 
-   for (i = 0; i < totalQuestions; i++)
+   for (i = 0; i < questions.length; i++)
    {
 
-   	currentQuestion = questions.elements[i].value;
-
-   	if( currentQuestion.value == "true") 
-		{  correctAnswers++; }
+   	currentQuestion = questions.elements[i];
+	if (currentQuestion.checked)
+	{
+   		if( currentQuestion.value == "true") 
+			{  correctAnswers++; }
+	}
 
    }
 
@@ -33,7 +35,7 @@ function submitAnswers()
    if ( correctAnswers !== totalQuestions )
    	{ window.location.href = "failedTest.html"; }
    else
-      	{ window.location.href= "session.html";	}
+      	{ window.location.href= "success.html";	}
 
   
 }
@@ -41,7 +43,7 @@ function submitAnswers()
 </script>
 
 <div id=logo>
-<img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f8/Experian.svg/1024px-Experian.svg.png" style="width:80%">
+<img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f8/Experian.svg/1024px-Experian.svg.png" style="width:40%">
 </div>
 
   <div id="testContainer">
@@ -53,18 +55,18 @@ function submitAnswers()
 
 	<p>
 	Which street have you lived on previously?<p>
-	<input name="q1" type="radio" value="false">Cotton Lane</input><p>
-	<input name="q1" type="radio" value="false">Strawberry Ct</input><p>
-	<input name="q1" type="radio" value="true">Silver Lane</input><p>
-	<input name="q1" type="radio" value="false">None of these</input><p>
+	&nbsp;&nbsp;&nbsp;<input name="q1" type="radio" value="false">Cotton Lane</input><p>
+	&nbsp;&nbsp;&nbsp;<input name="q1" type="radio" value="false">Strawberry Ct</input><p>
+	&nbsp;&nbsp;&nbsp;<input name="q1" type="radio" value="true">Silver Lane</input><p>
+	&nbsp;&nbsp;&nbsp;<input name="q1" type="radio" value="false">None of these</input><p>
 	<p>
 
         <p>
         What type of loan did you most recently acquire?<p>
-        <input name="q2" type="radio" value="false">Auto</input><p>
-        <input name="q2" type="radio" value="false">Home Equity</input><p>
-        <input name="q2" type="radio" value="true">Credit Card</input><p>
-        <input name="q2" type="radio" value="false">None of these</input><p>
+        &nbsp;&nbsp;&nbsp;<input name="q2" type="radio" value="false">Auto</input><p>
+        &nbsp;&nbsp;&nbsp;<input name="q2" type="radio" value="false">Home Equity</input><p>
+        &nbsp;&nbsp;&nbsp;<input name="q2" type="radio" value="true">Credit Card</input><p>
+        &nbsp;&nbsp;&nbsp;<input name="q2" type="radio" value="false">None of these</input><p>
         <p>
 
 	<input onclick="submitAnswers()" name="submit" type="button" value="Submit Answers" />
