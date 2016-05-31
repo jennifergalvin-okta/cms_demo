@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Register for New User</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noarchive"><meta name="googlebot" content="noarchive"><meta name="robots" content="noindex">
@@ -32,22 +32,43 @@
     	<h2>Register for an account here</h2>
 	
 		<form action="/cms_demo/RegistrationServlet.html" method="post" target="_blank">
-  		<div class="form-group">
-    			<label for="email">Login (should be your email address:</label>
-    			<input type="email" class="form-control" id="email">
-  		</div>
-  		<div class="form-group">
-    			<label for="pwd">Password:</label>
-    			<input type="password" class="form-control" id="pwd">
-  		</div>
+
                 <div class="form-group">
                         <label for="email">First Name:</label>
                         <input type="email" class="form-control" id="firstName">
                 </div>
+
                 <div class="form-group">
                         <label for="email">Last Name:</label>
                         <input type="email" class="form-control" id="lastName">
                 </div>
+
+
+                <div class="form-group">
+                        <label for="email">Mobile Phone:</label>
+                        <input type="email" class="form-control" id="mobilePhone">
+                </div>
+
+  		<div class="form-group">
+    			<label for="email">Email Addres (also used for login ID)</label>
+    			<input type="email" class="form-control" id="emailAddress">
+  		</div>
+
+		<div class="form-group">
+			ServiceNow Roles:<p>
+			<input name="servicenowRole" type="radio" value="requester">Requester Role</input><p>
+			<input name="servicenowRole" type="radio" value="fulfiller">Fulfiller Role (licensed)</input><p>
+			<input name="servicenowRole" type="radio" value="administrator">System Administrator</input><p>
+		</div>
+
+		<div class="form-group">
+			<label for="oktaRequestSource">okta Request Source<
+
+
+  		<div class="form-group">
+    			<label for="pwd">Password:</label>
+    			<input type="password" class="form-control" id="pwd">
+  		</div>
                 <div class="form-group">
                         <label for="email">Phone Number:</label>
                         <input type="email" class="form-control" id="phoneNumber">
