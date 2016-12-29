@@ -1,0 +1,12 @@
+{
+  "appMain": "https://portal.galvin.ninja",
+  "appMode":  "rwx",
+  "httpPort": "8084",
+  "listenOnHTTP": "false",
+  "httpsPort": "8084",
+  "listenOnHTTPS": "true",
+  "sslKey": "/etc/pki/tls/private/server.key",
+  "sslCert": "/etc/pki/tls/certs/server.crt",
+  "host":  "jgalvin.okta.com",
+  "apikey":  "00sdTAHWQUcbZkJi3C9EZTYVt77ozrA6W5RNUxxg_J"
+}
